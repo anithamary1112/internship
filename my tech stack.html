@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Stack</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #0d111f;
+            color: white;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+
+        h1 span {
+            color: #5ecbff;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .tab {
+            background: #141a2e;
+            padding: 15px 35px;
+            border: 1px solid #1f2945;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .tab:first-child {
+            background: #82d7ff;
+            color: #000;
+            border-radius: 10px 0 0 10px;
+        }
+
+        .tab:last-child {
+            border-radius: 0 10px 10px 0;
+        }
+
+        .tab:hover {
+            background: #82d7ff;
+            color: #000;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #151b2f;
+            padding: 30px 20px;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 15px rgba(94, 203, 255, 0.4);
+        }
+
+        .card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My <span>Tech Stack</span></h1>
+
+        <div class="tabs">
+            <div class="tab">All (25)</div>
+            <div class="tab">Languages (7)</div>
+            <div class="tab">Tools (8)</div>
+            <div class="tab">Libraries (5)</div>
+            <div class="tab">Databases (4)</div>
+        </div>
+
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="C">
+                <h3>C</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C++">
+                <h3>C++</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+                <h3>Python</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+                <h3>Java</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" alt="NumPy">
+                <h3>NumPy</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968344.png" alt="Pandas">
+                <h3>Pandas</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://matplotlib.org/_static/images/logo2.svg" alt="Matplotlib">
+                <h3>Matplotlib</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MySQL">
+                <h3>MySQL</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968341.png" alt="PostgreSQL">
+                <h3>PostgreSQL</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MongoDB">
+                <h3>MongoDB</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="SQLite">
+                <h3>SQLite3</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React">
+                <h3>React</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" alt="SQL">
+                <h3>SQL</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
